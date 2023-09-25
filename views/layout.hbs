@@ -1,0 +1,14 @@
+<html lang="en">
+  <head>
+    <!-- this file in no longer pure HTML; it must be renderd by hbs template engine -->
+    {{! This file will be used as layout when we call the render function }}
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="site/css/style.css" />
+    <!--when we mount the css and image we do it under the /site/.. route -->
+  </head>
+  <body>
+    {{{body}}}
+  </body>
+</html>
